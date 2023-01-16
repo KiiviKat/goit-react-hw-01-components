@@ -6,7 +6,7 @@ export const Item = styled.li`
   align-items: center;
   padding: 8px 12px;
   border-radius: 4px;
-  border: 1px solid lightgray;
+
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
 

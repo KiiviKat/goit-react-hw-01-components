@@ -4,9 +4,8 @@ export const StatisticsSection = styled.section`
   text-align: center;
   width: 320px;
   padding: 8px;
-  margin: 24px auto;
+  margin: 40px auto;
   overflow: hidden;
-  border: 1px solid lightgray;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;

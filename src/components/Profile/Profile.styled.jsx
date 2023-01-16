@@ -3,9 +3,8 @@ import styled from 'styled-components';
 export const CardWrapper = styled.div`
   width: 320px;
   padding: 8px;
-  margin: 24px auto;
+  margin: 40px auto;
   text-align: center;
-  border: 1px solid lightgray;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
@@ -16,7 +15,9 @@ export const Description = styled.div`
 
 export const Image = styled.img`
   display: block;
-  width: 100%;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const Name = styled.p`
@@ -35,7 +36,7 @@ export const Stats = styled.ul`
   padding: 0px;
   display: flex;
   justify-content: space-around;
-  background-color: lightgray;
+  background-color: purple;
   border-radius: 4px;
 `;
 
@@ -48,9 +49,11 @@ export const Stat = styled.li`
 
 export const Label = styled.span`
   font-size: 16px;
-  color: gray;
+  color: white;
 `;
 
 export const Quantity = styled.span`
   font-weight: 500;
+  font-size: 24px;
+  color: white;
 `;
